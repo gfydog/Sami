@@ -1,0 +1,12 @@
+# Ajustar el tiempo de espera del socket predeterminado en PHP a 600 segundos
+php_value default_socket_timeout 600
+
+RewriteEngine On
+#RewriteBase /GoofyStores/Sami/Sami/v1.0/
+
+# Si la solicitud no corresponde a un archivo existente
+RewriteCond %{REQUEST_FILENAME} !-f
+# Si la solicitud no corresponde a un directorio existente
+RewriteCond %{REQUEST_FILENAME} !-d
+# Redirigir la solicitud a un script PHP pasando la URL como parámetro GET
+RewriteRule ^([^/]+)$ s/index.php?username=$1 [QSA,L]

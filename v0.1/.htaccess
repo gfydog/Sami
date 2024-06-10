@@ -2,7 +2,7 @@
 php_value default_socket_timeout 600
 
 RewriteEngine On
-#RewriteBase /GoofyStores/Sami/Sami/v1.0/
+#RewriteBase /GoofyStores/Sami/Sami/v0.1/
 
 # Si la solicitud no corresponde a un archivo existente
 RewriteCond %{REQUEST_FILENAME} !-f

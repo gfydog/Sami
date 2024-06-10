@@ -3,7 +3,7 @@
 It is a website generator with artificial intelligence
 
 
-* Try it by logging in from your computer to[my.gfy.dog](https://my.gfy.dog).
+* Try it by logging in from your computer to [my.gfy.dog](https://my.gfy.dog).
 
 
 ## Author and support
